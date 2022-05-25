@@ -9,6 +9,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-size: 14px;
     color: #4e3914;
+    /* background-image: url("../images/white-brick-back.jpg"); */
 }
 
 @media (min-width: 992px) {
