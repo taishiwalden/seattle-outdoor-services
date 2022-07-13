@@ -585,10 +585,31 @@ footer p {
   box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.15);
   border: none;
 }
-.pricing-box .card h3.card-header {
+.pricing-box .card h3.card-header-1 {
   padding: 80px 15px;
   text-align: center;
   background: #4e3914;
+  background-image: url("/images/SOS-Services-Single-Driveway-01.jpg");
+  background-repeat: no-repeat;
+  background-size: 350px 195px;
+  color: #ffffff;
+}
+.pricing-box .card h3.card-header-2 {
+  padding: 80px 15px;
+  text-align: center;
+  background: #4e3914;
+  background-image: url("/images/SOS-Services-two-car-driveway-02.jpg");
+  background-repeat: no-repeat;
+  background-size: 350px 195px;
+  color: #ffffff;
+}
+.pricing-box .card h3.card-header-3 {
+  padding: 80px 15px;
+  text-align: center;
+  background: #4e3914;
+  background-image: url("/images/SOS-Services-custom-04.jpg");
+  background-repeat: no-repeat;
+  background-size: 350px 195px;
   color: #ffffff;
 }
 .most_popular {
