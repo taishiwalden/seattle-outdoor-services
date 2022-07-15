@@ -1,4 +1,15 @@
 <?php
+function console_log($output, $with_script_tags = true) {
+   $js_code = 'console.log(' . json_encode($output, JSON_HEX_TAG) . 
+');';
+   if ($with_script_tags) {
+       $js_code = '<script>' . $js_code . '</script>';
+   }
+   echo $js_code;
+}
+
+console_log('Hello World');
+
 // Check for empty fields
 if(empty($_POST['name'])      ||
    empty($_POST['email'])     ||
@@ -22,5 +33,5 @@ $email_body = "You have received a new message from your website contact form.\n
 $headers = "From: noreply@seattleoutdoorservices.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email_address";   
 mail($to,$email_subject,$email_body,$headers);
-return true;         
+return true;      
 ?>
